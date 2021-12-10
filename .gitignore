@@ -1,0 +1,10 @@
+# exclude files
+*.eps
+
+# exclude directories
+literature/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sw*
