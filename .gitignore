@@ -8,3 +8,5 @@ literature/
 .idea/
 .vscode/
 *.sw*
+
+code/__pycache__/
