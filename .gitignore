@@ -3,6 +3,7 @@
 
 # exclude directories
 literature/
+otrascosas/
 
 # Ignore IDE specific files
 .idea/

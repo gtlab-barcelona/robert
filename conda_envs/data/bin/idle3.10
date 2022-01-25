@@ -1,0 +1,5 @@
+#!/home/robi/Desktop/research/conda_envs/data/bin/python3.10
+
+from idlelib.pyshell import main
+if __name__ == '__main__':
+    main()
