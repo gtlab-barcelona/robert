@@ -1,8 +1,8 @@
-prefix=/home/robi/Desktop/research/conda_envs/data
+prefix=/home/robi/research/conda_envs/data
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/home/robi/Desktop/research/conda_envs/data/include
+includedir=/home/robi/research/conda_envs/data/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces

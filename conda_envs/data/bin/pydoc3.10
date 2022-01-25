@@ -1,5 +1,0 @@
-#!/home/robi/Desktop/research/conda_envs/data/bin/python3.10
-
-import pydoc
-if __name__ == '__main__':
-    pydoc.cli()

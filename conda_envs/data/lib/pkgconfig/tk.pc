@@ -1,8 +1,8 @@
 # tk pkg-config source file
 
-prefix=/home/robi/Desktop/research/conda_envs/data
-exec_prefix=/home/robi/Desktop/research/conda_envs/data
-libdir=/home/robi/Desktop/research/conda_envs/data/lib
+prefix=/home/robi/research/conda_envs/data
+exec_prefix=/home/robi/research/conda_envs/data
+libdir=/home/robi/research/conda_envs/data/lib
 includedir=${prefix}/include
 
 Name: The Tk Toolkit

@@ -1,0 +1,14 @@
+prefix=/home/robi/research/conda_envs/data
+exec_prefix=/home/robi/research/conda_envs/data
+libdir=/home/robi/research/conda_envs/data/lib
+includedir=/home/robi/research/conda_envs/data/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2
