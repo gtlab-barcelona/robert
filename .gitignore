@@ -4,6 +4,7 @@
 # exclude directories
 literature/
 otrascosas/
+conda_envs/data/
 
 # Ignore IDE specific files
 .idea/
