@@ -6,9 +6,12 @@ literature/
 otrascosas/
 conda_envs/data/
 
-# Ignore IDE specific files
+# ignore IDE specific files
 .idea/
 .vscode/
 *.sw*
-
 code/__pycache__/
+
+# ignore xls cache 
+.~lock*
+
