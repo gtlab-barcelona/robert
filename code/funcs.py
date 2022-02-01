@@ -40,3 +40,27 @@ def number_of_day_to_date(day_num):
     print('Day number:',day_num)
     res = datetime.strptime('2020-'+str(day_num), "%Y-%j").strftime("%d-%m-%Y")
     print('Resolved date:',res)
+
+################################################################################
+
+import numpy as np
+import pandas as pd
+def first_last_day(df):
+    '''
+    data frame must have a 'Year' column!
+    '''
+    years = np.arange(1982, 2020+1)
+    first = np.zeros(len(years))
+    last = np.zeros(len(years))
+    for i in range(len(years)):
+        try:
+            # select first index with butterfly count greater than 0
+            xfirst = df[(df['Year'] == years[i]) & (df['count'] >= 1)].index[0]
+            # and last index
+            xlast = df[(df['Year'] == years[i]) & (df['count'] >= 1)].index[-1]
+        except:
+            print(f'No counts in {years[i]}.')
+            first[i], last[i] = np.nan, np.nan
+        else:
+            first[i], last[i] = (df['datetime'].iloc[[xfirst, xlast]] - pd.Timestamp(f'1/1/{years[i]}')).values.astype('timedelta64[D]')
+    return first, last
