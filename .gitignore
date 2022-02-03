@@ -2,6 +2,7 @@
 *.eps
 
 # exclude directories
+data/
 literature/
 otrascosas/
 conda_envs/data/
