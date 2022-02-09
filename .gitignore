@@ -12,6 +12,7 @@ conda_envs/data/
 .vscode/
 *.sw*
 code/__pycache__/
+.empty/
 
 # ignore xls cache 
 .~lock*
