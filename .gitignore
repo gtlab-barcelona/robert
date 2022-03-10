@@ -4,7 +4,6 @@
 # exclude directories
 data/
 literature/
-otrascosas/
 conda_envs/data/
 
 # ignore IDE specific files
@@ -16,4 +15,3 @@ code/__pycache__/
 
 # ignore xls cache 
 .~lock*
-
