@@ -1,0 +1,115 @@
+% This preamble includes the packages and settings I typically use
+% 23.02.22, Robert W
+
+%%% koma script options
+\KOMAoption{toc}{bibliography} % insert bibliography in table of contents
+\KOMAoptions{
+	fontsize=12pt,
+	parskip=true,
+	%titlepage=false,
+	%appendixprefix=true,
+	%abstract=true,
+}
+\addtokomafont{disposition}{\boldmath} % improve math symbols in headings
+
+
+%%% language settings
+\usepackage{polyglossia}
+	\setmainlanguage{english}
+
+%%% font
+\usepackage{fontspec} 
+	\setmainfont{FreeSerif}
+	\setsansfont{FreeSans}
+	\setmonofont{inconsolata}
+
+%%% hyperref setup
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	urlcolor=.,
+	linkcolor=,
+	citecolor=,
+	pdfauthor={Robert Wright},
+	%pdftitle={},
+}
+
+%%% units (optionally, using version 2)
+\usepackage[english,german]{translator} % siunitx needs translator package (not ngerman)! 
+\usepackage{siunitx}%[=v2]
+\sisetup{
+	separate-uncertainty=true
+}
+\NewDocumentCommand{\angsi}{omom}{ % it's now possible to write \angsi{<num>}{\per\second}
+	\ang[#1]{#2}\,\si[#3]{#4}
+}
+
+%%% bibliography
+\usepackage[
+	backend=biber,
+	style=authoryear-comp,
+	bibstyle=authortitle,
+	autolang=langname,
+	uniquename=init,
+	giveninits=true,
+	maxnames=2,
+	%block=ragged,
+	%sorting=none,
+]{biblatex}
+\AtEveryBibitem{ % don't print url and urldate
+	\clearfield{url}
+	\clearfield{urlyear}
+}
+
+
+%%% other packages
+\usepackage{csquotes} % quotation marks
+\usepackage{mathtools}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cleveref}
+\usepackage{booktabs, tabularx}
+\usepackage[roman]{parnotes} % place notes immediately after paragraph
+\usepackage[enable]{easy-todo}
+\usepackage{datetime2}
+%\usepackage[nodayofweek]{datetime} % load after language is set!
+	%\newdate{example}{8}{11}{2021}
+\usepackage[shortcuts]{extdash} % to hyphenate words with dashes in them
+\usepackage{xcolor}
+\usepackage[version=4]{mhchem}
+
+
+%%% costum commands
+
+% Better inline directory listings
+\definecolor{light-gray}{gray}{0.95}
+\newcommand{\code}[1]{\colorbox{light-gray}{\texttt{#1}}}
+
+% math stuff
+\newcommand*\mean[1]{\overline{#1}}
+\newcommand{\vect}[1]{\boldsymbol{#1}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% https://tex.stackexchange.com/questions/16765/biblatex-author-year-square-brackets
+\makeatletter
+
+\newrobustcmd*{\parentexttrack}[1]{%
+	\begingroup
+	\blx@blxinit
+	\blx@setsfcodes
+	\blx@bibopenparen#1\blx@bibcloseparen
+	\endgroup}
+
+\AtEveryCite{%
+	\let\parentext=\parentexttrack%
+	\let\bibopenparen=\bibopenbracket%
+	\let\bibcloseparen=\bibclosebracket}
+
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
