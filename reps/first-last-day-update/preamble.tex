@@ -7,15 +7,15 @@
 	fontsize=12pt,
 	parskip=true,
 	%titlepage=false,
+	%abstract=false,
 	%appendixprefix=true,
-	%abstract=true,
 }
 \addtokomafont{disposition}{\boldmath} % improve math symbols in headings
 
 
 %%% language settings
 \usepackage{polyglossia}
-	\setmainlanguage{english}
+	\setmainlanguage[variant=british]{english}
 
 %%% font
 \usepackage{fontspec} 
@@ -27,16 +27,16 @@
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks=true,
-	urlcolor=.,
+	urlcolor=cyan,
 	linkcolor=,
 	citecolor=,
 	pdfauthor={Robert Wright},
-	%pdftitle={},
+	pdftitle={Preliminary Analysis of Fringilla Insect Data},
 }
 
 %%% units (optionally, using version 2)
 \usepackage[english,german]{translator} % siunitx needs translator package (not ngerman)! 
-\usepackage{siunitx}%[=v2]
+\usepackage{siunitx}[=v2]
 \sisetup{
 	separate-uncertainty=true
 }
@@ -63,6 +63,7 @@
 
 
 %%% other packages
+\usepackage[table,dvipsnames]{xcolor}
 \usepackage{csquotes} % quotation marks
 \usepackage{mathtools}
 \usepackage[onehalfspacing]{setspace}
@@ -72,15 +73,14 @@
 \usepackage{pdfpages}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage{cleveref}
-\usepackage{booktabs, tabularx}
+\usepackage[nameinlink]{cleveref}
+\usepackage{booktabs, tabularx, multirow}
 \usepackage[roman]{parnotes} % place notes immediately after paragraph
-\usepackage[enable]{easy-todo}
-\usepackage{datetime2}
+%\usepackage[enable]{easy-todo}
+%\usepackage[useregional]{datetime2} % resets date style! FIXME!
 %\usepackage[nodayofweek]{datetime} % load after language is set!
 	%\newdate{example}{8}{11}{2021}
 \usepackage[shortcuts]{extdash} % to hyphenate words with dashes in them
-\usepackage{xcolor}
 \usepackage[version=4]{mhchem}
 
 

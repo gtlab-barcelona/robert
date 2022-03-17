@@ -1,9 +1,42 @@
-\documentclass{scrreprt}
+\documentclass{scrartcl}
 
 \input{preamble.tex}
+\addbibresource{/home/robi/research/literature/lit-ibb.bib}
+%\listfiles
+
+% TITLE
+\titlehead{%
+	\centering\includegraphics[width=0.5\textwidth]{figs/logo-ibb.png} \\
+}
+\subject{Research Update}
+\title{Preliminary Analysis of Fringilla Insect Data}
+%\subtitle{}
+\author{Robert Wright}
+\publishers{Supervisor: Gerard Talavera}
+\date{\today}
 
 \begin{document}
-	Hello, world
+	\maketitle
 	
-	\texttt{Hello, world again!}
+	\begin{abstract}
+		\noindent
+		% HAD TO ADD NEWLINE MANUALLY!
+		As part of my internship at the \textit{Botanical Institute of Barcelona}, I have been performing an exploratory analysis on (what I refer to as) the \textit{Fringilla insect dataset}. As far as I am concerned, the data and method of acquisition have been \newline first presented in a paper by \textcite{shapoval2012}. The following report is designed to give an update on the progress of analysis as well as highlight some questions (in \cref{sec:questions}) that came up during the work. All project files can be found on \href{https://github.com/gtlab-barcelona/Robert}{github}.
+	\end{abstract}
+	\newpage
+	\tableofcontents
+	
+	\input{exploration.tex}
+	\input{first-appearance.tex}
+	\input{questions.tex}
+	\appendix
+	\input{appendix.tex}
+	
+	\newpage
+	\hypersetup{urlcolor=.}
+	%\nocite{*}
+	\begingroup
+	\setlength{\emergencystretch}{3em}
+	\printbibliography
+	\endgroup
 \end{document}

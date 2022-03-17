@@ -1,0 +1,10 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\selectlanguage *[variant=british]{english}
+\contentsline {section}{\numberline {1}Data Exploration}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Missing Values}{3}{subsection.1.1}%
+\contentsline {section}{\numberline {2}First Appearance}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Temperature Records}{6}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Open Questions}{7}{section.3}%
+\contentsline {section}{\numberline {A}Appendix}{8}{appendix.A}%
+\contentsline {section}{\nonumberline References}{10}{section*.11}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

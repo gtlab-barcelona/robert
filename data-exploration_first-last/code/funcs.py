@@ -29,7 +29,7 @@ def import_pickled_data():
     from vals import pkl_files
     dummy = []
     for file in pkl_files:
-        with open('../data/'+file, 'rb') as f:
+        with open('../../data/'+file, 'rb') as f:
             dummy.append(pickle.load(f))
     return dummy
 

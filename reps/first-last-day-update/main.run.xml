@@ -41,7 +41,7 @@
   >
 ]>
 <requests version="1.0">
-  <internal package="biblatex" priority="9" active="1">
+  <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
       <file>main.bcf</file>
@@ -59,10 +59,10 @@
       <file>authoryear-comp.cbx</file>
       <file>biblatex.cfg</file>
       <file>english.lbx</file>
-      <file>american.lbx</file>
+      <file>british.lbx</file>
     </requires>
   </internal>
-  <external package="biblatex" priority="5" active="1">
+  <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
@@ -79,6 +79,9 @@
     </provides>
     <requires type="dynamic">
       <file>main.bcf</file>
+    </requires>
+    <requires type="editable">
+      <file>/home/robi/research/literature/lit-ibb.bib</file>
     </requires>
   </external>
 </requests>
