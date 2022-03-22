@@ -1,5 +1,6 @@
 # exclude files
 *.eps
+*.ods
 
 # exclude directories
 data/
@@ -10,7 +11,7 @@ conda_envs/data/
 .idea/
 .vscode/
 *.sw*
-code/__pycache__/
+__pycache__/
 .empty/
 
 # ignore xls cache 
