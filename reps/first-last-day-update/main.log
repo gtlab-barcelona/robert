@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2022.3.14)  16 MAR 2022 18:28
+This is LuaHBTeX, Version 1.12.0 (TeX Live 2020/Debian)  (format=lualatex 2022.3.14)  22 MAR 2022 14:27
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -382,12 +382,12 @@ Package polyglossia Info: Option: English, variant=american.
 )
 Package polyglossia Info: Option: english variant=british.
 Module polyglossia Info: Language data for ukenglish
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            hyphenation	hyph-en-gb.hyp.txt
-(polyglossia)            patterns	hyph-en-gb.pat.txt
 (polyglossia)            synonyms	british,UKenglish
 (polyglossia)            loader	loadhyph-en-gb.tex
-(polyglossia)            righthyphenmin	3 on input line 18
+(polyglossia)            righthyphenmin	3
+(polyglossia)            hyphenation	hyph-en-gb.hyp.txt
+(polyglossia)            patterns	hyph-en-gb.pat.txt
+(polyglossia)            lefthyphenmin	2 on input line 18
 Module polyglossia Info: Language ukenglish was not yet loaded; created with id 
 2 on input line 18
 Package polyglossia Info: Option: english variant=british.
@@ -1445,17 +1445,17 @@ Package polyglossia Info: Option: english variant=british.
 <figs/logo-ibb.png, id=4, 351.3125pt x 162.6075pt>
 File: figs/logo-ibb.png Graphic file (type png)
 <use figs/logo-ibb.png>
-Package luatex.def Info: figs/logo-ibb.png  used on input line 20.
+Package luatex.def Info: figs/logo-ibb.png  used on input line 21.
 (luatex.def)             Requested size: 209.12778pt x 96.79855pt.
 Module polyglossia Info: Language data for british
-(polyglossia)            lefthyphenmin	2
-(polyglossia)            hyphenation	hyph-en-gb.hyp.txt
-(polyglossia)            patterns	hyph-en-gb.pat.txt
 (polyglossia)            synonyms	british,UKenglish
 (polyglossia)            loader	loadhyph-en-gb.tex
-(polyglossia)            righthyphenmin	3 on input line 24
+(polyglossia)            righthyphenmin	3
+(polyglossia)            hyphenation	hyph-en-gb.hyp.txt
+(polyglossia)            patterns	hyph-en-gb.pat.txt
+(polyglossia)            lefthyphenmin	2 on input line 26
 Module polyglossia Info: Language british was not yet loaded; created with id 4 
-on input line 24
+on input line 26
  [1
 
 
@@ -1482,12 +1482,7 @@ Package luatex.def Info: figs/total-count_per_year_per_species.pdf  used on inpu
 t line 7.
 (luatex.def)             Requested size: 376.42744pt x 255.88858pt.
  [2]
-Overfull \hbox (4.41661pt too wide) in paragraph at lines 14--16
-\TU/FreeSerif(0)/m/n/12 The data-set has a high num-ber of miss-ing val-ues in 
-early years, with a con-sidersid-er-able ‘  im-prove-
- []
-
-<figs/nans_per-year.pdf, id=44, 729.8674pt x 500.13287pt>
+<figs/nans_per-year.pdf, id=46, 729.8674pt x 500.13287pt>
 File: figs/nans_per-year.pdf Graphic file (type pdf)
 <use figs/nans_per-year.pdf>
 Package luatex.def Info: figs/nans_per-year.pdf  used on input line 19.
@@ -1495,86 +1490,63 @@ Package luatex.def Info: figs/nans_per-year.pdf  used on input line 19.
 ) (./first-appearance.tex [3<./figs/total-count_per_year_per_species.pdf>]
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
 3
-
-Overfull \hbox (7.32857pt too wide) in paragraph at lines 3--4
-\TU/FreeSerif(0)/m/n/12 sig-ni-ficafic-ant tem-poral shift to earlier mean first
- ap-pear-ances in 13 out of 35 spe-cies ana-lysed. 
- []
-
-[4<./figs/nans_per-year.pdf>]
-<figs/Inachis io_linregress.pdf, id=146, 511.69606pt x 419.87552pt>
+ [4<./figs/nans_per-year.pdf>]
+<figs/Inachis io_linregress.pdf, id=151, 511.69606pt x 419.87552pt>
 File: figs/Inachis io_linregress.pdf Graphic file (type pdf)
 <use figs/Inachis io_linregress.pdf>
-Package luatex.def Info: figs/Inachis io_linregress.pdf  used on input line 9.
+Package luatex.def Info: figs/Inachis io_linregress.pdf  used on input line 12.
 (luatex.def)             Requested size: 376.42744pt x 308.88348pt.
-
-Overfull \hbox (11.12321pt too wide) in paragraph at lines 14--15
-\TU/FreeSerif(0)/m/n/12 vest-ig-ate the un-derlyder-ly-ing driv-ing factors for the ob-served change in phen-ologo-logy. As the Fringilla
- []
-
-
-Overfull \hbox (5.11267pt too wide) in paragraph at lines 14--15
-\TU/FreeSerif(0)/m/n/12 data already in-cludes tem-per-at-ure re-cords, ana-lysi
-nlys-ing the in-flu-ence of tem-per-at-ure on first ap-
- []
-
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-18
+19
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-18
-[5<./figs/Inachis io_linregress.pdf>]
-<figs/annual-mean-tmp-comparison.pdf, id=190, 387.52278pt x 282.0343pt>
+19
+ [5<./figs/Inachis io_linregress.pdf>]
+<figs/annual-mean-tmp-comparison.pdf, id=197, 387.52278pt x 282.0343pt>
 File: figs/annual-mean-tmp-comparison.pdf Graphic file (type pdf)
 <use figs/annual-mean-tmp-comparison.pdf>
 Package luatex.def Info: figs/annual-mean-tmp-comparison.pdf  used on input line
- 23.
+ 24.
 (luatex.def)             Requested size: 376.42744pt x 273.97316pt.
 ) (./questions.tex [6<./figs/annual-mean-tmp-comparison.pdf>]
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
 15
-) (./appendix.tex
-<figs/v-atalanta_single-traps.pdf, id=245, 867.24pt x 650.43pt>
+)
+(./appendix.tex
+<figs/v-atalanta_single-traps.pdf, id=254, 867.24pt x 650.43pt>
 File: figs/v-atalanta_single-traps.pdf Graphic file (type pdf)
 <use figs/v-atalanta_single-traps.pdf>
 Package luatex.def Info: figs/v-atalanta_single-traps.pdf  used on input line 5.
 
 (luatex.def)             Requested size: 376.42744pt x 282.31943pt.
  [7]
-Overfull \hbox (16.31607pt too wide) in paragraph at lines 52--52
-\TU/FreeSerif(0)/m/n/12 The coef-ficientfi-cient of de-term-in-ata-tion $\OML/c
-mm/m/it/12 r[]$ \TU/FreeSerif(0)/m/n/12 is the square of the Pear-son cor-rel-a-
-tion coef-ficientfi-cient.
- []
-
-
-Overfull \hbox (1.57927pt too wide) in paragraph at lines 52--52
-\TU/FreeSerif(0)/m/n/12 slope is zero, us-ing Wald Test with t-distribution of 
-the test stat-istic. Sig-ni-ficafic-ance is
+Overfull \hbox (1.96722pt too wide) in paragraph at lines 52--52
+\TU/FreeSerif(0)/m/n/12 ni-ficafic-ance is in-dic-ated by yel-low filling. Val-u
+es for change per dec-ade are num-ber of
  []
 
 ) [8<./figs/v-atalanta_single-traps.pdf>] [9]
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 Module polyglossia Info: Language british already loaded; id is 4 on input line 
-41
+43
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1632,8 +1604,8 @@ Here is how much of LuaTeX's memory you used:
  654 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 9 attribute, 80 glue_spec,
  9 attribute_list, 1 write, 3 pdf_action nodes
-   avail lists: 1:3,2:3355,3:333,4:85,5:1851,6:32,7:6368,8:38,9:2236,10:18,11:20
-9,12:1
+   avail lists: 1:3,2:3371,3:334,4:87,5:1864,6:33,7:6423,8:38,9:2239,10:13,11:25
+4,12:1
  51544 multiletter control sequences out of 65536+600000
  103 fonts using 72862759 bytes
  111i,14n,118p,10598b,2325s stack positions out of 5000i,500n,10000p,200000b,200000s
@@ -1646,10 +1618,10 @@ eefont/FreeSerifBold.otf></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b>
-Output written on main.pdf (10 pages, 227653 bytes).
+Output written on main.pdf (10 pages, 228755 bytes).
 
-PDF statistics: 383 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
+PDF statistics: 398 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
  31 named destinations out of 1000 (max. 131072)
  57 words of extra memory for PDF output out of 10000 (max. 100000000)
 

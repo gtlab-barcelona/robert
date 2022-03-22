@@ -1,8 +1,11 @@
 \section{First Appearance}
 
-Continuing an approach of \textcite{roy2000}, in the following, the timing of first (and last) appearance per year is analysed. Here, the term \enquote{appearance} refers to the earliest (and latest) insect count in the recordings of a single year. In the previously mentioned publication, the authors used data recordings from the \textit{British Butterfly Monitoring Scheme} for the years 1976 to 1998 collected at over 100 sites. Among other things, they found a significant temporal shift to earlier mean first appearances in 13 out of 35 species analysed. 
+Continuing an approach of \textcite{roy2000}, in the following, the timing of first (and last) appearance per year is analysed. Here, the term \enquote{appearance} refers to the earliest (and latest) insect count in the recordings of a single year. In the previously mentioned publication, the authors used data recordings from the \textit{British Butterfly Monitoring Scheme} for the years 1976 to 1998 collected at over 100 sites. Among other things, they found a significant temporal shift to earlier mean first appearances in 13 out of 35 species, including the promising ones from this analysis.
 
-In order to identify linear trends in the Fringilla dataset, a least-squares regression is applied on first appearance with year as the explanatory variable. One of the fitted models is exemplarily plotted in \cref{fig:io-linregress}. The statistical parameters of all regressions are summarized in \cref{tab:stats} of \cref{appendix}. It turns out that three species show a significant temporal trend towards earlier appearance: \textit{V. atalanta}, \textit{I. io} and \textit{P. c-album}. However, the data does not reveal a significant relationship for delayed last appearance in recent years for any species.
+In order to identify linear trends in the Fringilla dataset, a least-squares regression is applied on first appearance with year as the explanatory variable. The fitted model of \textit{I. io} is exemplarily plotted in \cref{fig:io-linregress}, while the results for the remaining species can be found in the attached file as well as \href{https://github.com/gtlab-barcelona/Robert/tree/main/data-exploration_first-last/figs/first-last-day_1998-2020/species}{online}. The statistical parameters of all regressions are summarized in \cref{tab:stats} of \cref{appendix}. It turns out that three species show a significant temporal trend towards earlier appearance: \textit{V. atalanta}, \textit{I. io} and \textit{P. c-album}. However, the data does not reveal a significant relationship for delayed last appearance in recent years for any species.
+
+Proceeding, it would be of interest to relate climate variables to first appearance and investigate the underlying driving factors for the observed change in phenology.
+As the Frin- \linebreak gilla data already includes temperature records, starting with the analysis of the influence of temperature on first appearance immediately suggests itself.
 
 \begin{figure}
 	\centering
@@ -10,8 +13,6 @@ In order to identify linear trends in the Fringilla dataset, a least-squares reg
 	\caption{\textit{Top:} Total count of \textit{I. io} for the years 1998 to 2020, two outbreaks are visible. \textit{Bottom:} Linear regression on first (orange) and last (green) appearance. Note that the \textit{y}-axis is in days since Jan 1st of the respective year.}
 	\label{fig:io-linregress}
 \end{figure}
-
-Proceeding, it would be of interest to relate climate variables to first appearance and investigate the underlying driving factors for the observed change in phenology. As the Fringilla data already includes temperature records, analysing the influence of temperature on first appearance immediately suggests itself.
 
 \subsection{Temperature Records}
 
@@ -21,7 +22,7 @@ As \cref{fig:annual-mean-tmp} illustrates, the temperature data displays contrad
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{figs/annual-mean-tmp-comparison}
-	\caption{Comparison of the annual mean maximum temperature computed from the Fringilla dataset and CRU TS. Besides the data points, a linear fit is plotted. The annual mean is computed on the closed interval from 1st April to 31st October.}
+	\caption{Comparison of the annual mean maximum temperature computed from the Fringilla dataset and CRU TS. Besides the data points, a linear fit is plotted. The annual mean is computed on the closed interval from 1st April to 31st October (\href{https://github.com/gtlab-barcelona/Robert/blob/main/data-exploration_first-last/figs/first-last-day_1998-2020/annual-mean-tmp-comparison.pdf}{image link}).}
 	\label{fig:annual-mean-tmp}
 \end{figure}
 
