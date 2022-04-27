@@ -13,6 +13,8 @@ conda_envs/data/
 *.sw*
 __pycache__/
 .empty/
+.R*
 
 # ignore xls cache 
 .~lock*
+.Rproj.user
