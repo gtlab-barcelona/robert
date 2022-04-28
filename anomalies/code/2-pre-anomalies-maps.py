@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 
 
 # load data from netCDF file
-era5_file = Dataset('/sda/climate_anomalies/era5_global_tmp-pre_2000-21.nc')
+era5_file = Dataset('/sda/climate-anomalies/era5_global_tmp-pre_2000-21.nc')
 print(era5_file)
 
 
