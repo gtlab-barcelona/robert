@@ -49,7 +49,7 @@ lat = cru_ts_tmp.variables['lat'][::s]
 print(tmp.shape)
 print(pre.shape)
 print(lon.shape)
-print(lat.shape) 
+print(lat.shape)
 
 # %% [markdown]
 # ### Computing anomalies
@@ -75,6 +75,7 @@ def monthly_stats(var):
     # compute stats individually for every month
     for imonth in range(12):
         month_mean.append(np.mean(var[iref_start+imonth:iref_end:12], axis=0))
+        # maximum likelihood estimate of the variance for normally distributed variables
         month_std.append(np.std(var[iref_start+imonth:iref_end:12], axis=0))
     return month_mean, month_std
 
@@ -111,81 +112,34 @@ def zscore(var, mean, std):
 
 pre_zscr = zscore(pre, pre_mean, pre_std)
 tmp_zscr = zscore(tmp, tmp_mean, tmp_std)
+pre_zscr
 
 # %% [markdown]
 # ### Plotting
 
 # %%
-'''
-# The data is defined in lat/lon coordinate system, so PlateCarree() is the
-# appropriate transformation choice.
-# (https://scitools.org.uk/cartopy/docs/latest/tutorials/understanding_transform.html)
-data_crs = ccrs.PlateCarree()
+import numpy.ma as ma
 
-def plot_anom_maps(var, kind, cmap):
-    number_of_plots = 1 #(final_year + 1) - first_year
-    idummy = 0
-    # collection of subplots for every year of time frame of interest
-    for iplot in range(number_of_plots):
-        current_year = dtime[ianom_start+idummy].strftime('%Y')
-        print(f"{kind}: plotting #{iplot+1} of {number_of_plots}...")
-        # as there are lots of figures and we save them directly anyways, let's
-        # clear them from memory:
-        # https://stackoverflow.com/questions/28757348/how-to-clear-memory-completely-of-all-matplotlib-plots#55834853
-        fig, axs = plt.subplots(
-            nrows=3, ncols=4, figsize=(16,9),
-            subplot_kw={'projection':ccrs.Miller()}, # determine map projection
-            num=1, clear=True # use same figure, but cleared (prevents memory overflow)
-        )
-        fig.suptitle(f"{current_year}: {kind} anomaly",
-                     fontsize=20)
-        # plotting individual month
-        for ax in axs.flat:
-            ax.set_extent([-25, 70, 5, 70])
-            ax.set_title(dtime[ianom_start+idummy].strftime('%b'))
-            pcm = ax.pcolormesh(
-                lon, lat, var[idummy],
-                transform=data_crs, cmap=cmap,
-                rasterized=True, shading='nearest', # these settings are imprtant
-                                                    # for properly rendering pdf
-                vmin=-5, vmax=5
-            )
-            ax.add_feature(cfeature.COASTLINE, linewidth=0.5)
-            idummy += 1
-        cbar = plt.colorbar(pcm, ax=axs[:,:], shrink=0.9)
-        cbar.set_label('z-score [std]', fontsize=15)
-        plt.figtext(x=0.76, y=0.12, 
-                    s=f'reference period:\n{ref_start.year}-{ref_end.year}',
-                    fontdict={'alpha': 0.7})
-        fig.savefig(
-            f'../figs/kaliningrad/maps/{kind}-{current_year}.pdf', bbox_inches='tight'
-        )
-        # due to high memory usage nonetheless, added the following, just in case:
-        fig.clear()
-        plt.close(fig)
+# remove all z-scores which absolute value is smaller (or equal) than threshold,
+# threshold is in units of standard deviation, remember the "68-95-99.7 rule"
+threshold = 1
 
-# plotting...
-plot_anom_maps(tmp_zscr, "temperature", "coolwarm")
-plot_anom_maps(pre_zscr, "precipitation", "PuOr")
-'''
+# (-threshold <= vals <= threshold) are masked!
+def filter_small_values(var):
+    var_rm = []
+    for i in range(len(var)):
+        # mask values inside interval
+        var_rm.append(ma.masked_inside(var[i], threshold*-1, threshold))
+    return var_rm
 
-# %%
-# use threshold to mark values of (proper) anomalies
-threshold = 2
-
-def with_threshold(var, ts=threshold):
-    signi = np.empty(np.shape(var))
-    signi[:] = np.nan
-    signi[(var >= ts) & (var < 1e30)] = 1
-    return signi
+pre_zscr_rm = filter_small_values(pre_zscr)
+tmp_zscr_rm = filter_small_values(tmp_zscr)
 
 # %%
 # The data is defined in lat/lon coordinate system, so PlateCarree() is the
 # appropriate transformation choice.
 # (https://scitools.org.uk/cartopy/docs/latest/tutorials/understanding_transform.html)
 data_crs = ccrs.PlateCarree()
-
-llon, llat = np.meshgrid(lon, lat)
 
 def plot_anom_maps(var, kind, cmap):
     number_of_plots = (final_year + 1) - first_year
@@ -213,27 +167,24 @@ def plot_anom_maps(var, kind, cmap):
                 transform=data_crs, cmap=cmap,
                 rasterized=True, shading='nearest', # these settings are imprtant
                                                     # for properly rendering pdf
-                vmin=-5, vmax=5
+                vmin=-3, vmax=3
             )
-
-            # add marker for most pronounced anomalies
-            ax.scatter(llon, llat, c=with_threshold(var[idummy]),
-                       cmap='bone', s=0.5, transform=data_crs)
-
             ax.add_feature(cfeature.COASTLINE, linewidth=0.5)
             idummy += 1
         cbar = plt.colorbar(pcm, ax=axs[:,:], shrink=0.9)
-        cbar.set_label('z-score [std]', fontsize=15)
+        cbar.set_label('z-score [std] | values in '
+                       + rf'[$-{threshold}\sigma$,$+{threshold}\sigma$]' 
+                       + ' removed', fontsize=15)
         plt.figtext(x=0.76, y=0.11, 
                     s=f'reference period:\n{ref_start.year}-{ref_end.year}',
                     fontdict={'alpha': 0.7})
         fig.savefig(
-            f'../figs/kaliningrad/maps-with-marker/{kind}-{current_year}.pdf', bbox_inches='tight'
+            f'../figs/kaliningrad/maps/{kind}-{current_year}.pdf', bbox_inches='tight'
         )
         # due to high memory usage nonetheless, added the following, just in case:
         fig.clear()
         plt.close(fig)
 
 # plotting...
-plot_anom_maps(tmp_zscr, "temperature", "coolwarm")
-plot_anom_maps(pre_zscr, "precipitation", "PuOr")
+plot_anom_maps(tmp_zscr_rm, "temperature", "coolwarm")
+plot_anom_maps(pre_zscr_rm, "precipitation", "PuOr")
