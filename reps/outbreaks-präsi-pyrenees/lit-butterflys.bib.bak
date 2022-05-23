@@ -1,0 +1,1772 @@
+<?xml version="1.0"?>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:bibo="http://purl.org/ontology/biblio/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+>
+
+<bibo:Article rdf:about="https://doi.org/10.18637/jss.v067.i01">
+
+    <dc:title>Fitting Linear Mixed&#45;Effects Models Using &#55349;&#56981;&#55349;&#56982;&#55349;&#56974;&#55349;&#57338;</dc:title>
+    <dc:date>2015</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Journal of Statistical Software</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>67</bibo:volume>
+    <bibo:doi>10.18637/jss.v067.i01</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Douglas Bates"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Martin M&#228;chler"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ben Bolker"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Steve Walker"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1038/s41597&#45;022&#45;01230&#45;8">
+
+    <dc:title>A nearly complete database on the records and ecology of the rarest boreal tiger moth from 1840s to 2020</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Scientific Data</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>9</bibo:volume>
+    <bibo:doi>10.1038/s41597&#45;022&#45;01230&#45;8</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ivan N. Bolotov"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Mikhail Yu. Gofarov"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Evgeny S. Koshkin"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Vyacheslav V. Gorbach"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Yury I. Bakhaev"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Oleg E. Berlov"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Sergey Yu. Gordeev"/></bibo:contributor>
+    <bibo:position>7</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Yulia S. Kolosova"/></bibo:contributor>
+    <bibo:position>8</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Alexander V. Kondakov"/></bibo:contributor>
+    <bibo:position>9</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Alexey V. Korshunov"/></bibo:contributor>
+    <bibo:position>10</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Grigory S. Potapov"/></bibo:contributor>
+    <bibo:position>11</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Sergey Yu. Sinev"/></bibo:contributor>
+    <bibo:position>12</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Spiridon S. Sleptsov"/></bibo:contributor>
+    <bibo:position>13</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Vitaly M. Spitsyn"/></bibo:contributor>
+    <bibo:position>14</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Evgeny G. Strelnikov"/></bibo:contributor>
+    <bibo:position>15</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Andrey V. Timchenko"/></bibo:contributor>
+    <bibo:position>16</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Risto Haverinen"/></bibo:contributor>
+    <bibo:position>17</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Kari Nupponen"/></bibo:contributor>
+    <bibo:position>18</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Hannu Saarenmaa"/></bibo:contributor>
+    <bibo:position>19</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1016/j.anbehav.2008.02.011">
+
+    <dc:title>Effects of wind and weather on red admiral&#44; Vanessa atalanta&#44; migration at a coastal site in southern Sweden</dc:title>
+    <dc:date>2008</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Animal Behaviour</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>76</bibo:volume>
+    <bibo:doi>10.1016/j.anbehav.2008.02.011</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Oskar Brattstr&#246;m"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Nils Kjell&#233;n"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Thomas Alerstam"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Susanne &#197;kesson"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1186/s40462&#45;018&#45;0143&#45;3">
+
+    <dc:title>Geographic origin and migration phenology of European red admirals (Vanessa atalanta) as revealed by stable isotopes</dc:title>
+    <dc:date>2018</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Movement Ecology</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>6</bibo:volume>
+    <bibo:doi>10.1186/s40462&#45;018&#45;0143&#45;3</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Oskar Brattstr&#246;m"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Anatoly Shapoval"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Leonard I. Wassenaar"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Keith A. Hobson"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Susanne &#197;kesson"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1080/00031305.2017.1375989">
+
+    <dc:title>Data Organization in Spreadsheets</dc:title>
+    <dc:date>2018</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>The American Statistician</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>72</bibo:volume>
+    <bibo:doi>10.1080/00031305.2017.1375989</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Karl W. Broman"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Kara H. Woo"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1098/rspb.2022.0251">
+
+    <dc:title>Phenological sensitivity and seasonal variability explain climate&#45;driven trends in Mediterranean butterflies</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>The Royal Society</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>289</bibo:volume>
+    <bibo:doi>10.1098/rspb.2022.0251</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Pau Colom"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Miquel Ninyerola"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Xavier Pons"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Anna Traveset"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Constant&#237; Stefanescu"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1016/j.ecoinf.2021.101377">
+
+    <dc:title>Using long&#45;term citizen science data to understand distribution and habitat use of an irruptive species</dc:title>
+    <dc:date>2021</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Ecological Informatics</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>64</bibo:volume>
+    <bibo:doi>10.1016/j.ecoinf.2021.101377</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Anant Deshwal"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Pooja Panwar"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Joseph C. Neal"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Matthew A. Young"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1038/s41467&#45;022&#45;29615&#45;8">
+
+    <dc:title>Jet stream position explains regional anomalies in European beech forest productivity and tree growth</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Nature Communications</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>13</bibo:volume>
+    <bibo:doi>10.1038/s41467&#45;022&#45;29615&#45;8</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Isabel Dorado&#45;Li&#241;&#225;n"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Blanca Ayarzag&#252;ena"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Flurin Babst"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Guobao Xu"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Luis Gil"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Giovanna Battipaglia"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Allan Buras"/></bibo:contributor>
+    <bibo:position>7</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Vojt&#283;ch &#268;ada"/></bibo:contributor>
+    <bibo:position>8</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="J. Julio Camarero"/></bibo:contributor>
+    <bibo:position>9</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Liam Cavin"/></bibo:contributor>
+    <bibo:position>10</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Hugues Claessens"/></bibo:contributor>
+    <bibo:position>11</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Igor Drobyshev"/></bibo:contributor>
+    <bibo:position>12</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Bal&#225;zs Garamszegi"/></bibo:contributor>
+    <bibo:position>13</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Michael Grabner"/></bibo:contributor>
+    <bibo:position>14</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Andrew Hacket&#45;Pain"/></bibo:contributor>
+    <bibo:position>15</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Claudia Hartl"/></bibo:contributor>
+    <bibo:position>16</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Andrea Hevia"/></bibo:contributor>
+    <bibo:position>17</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Pavel Janda"/></bibo:contributor>
+    <bibo:position>18</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Alistair S. Jump"/></bibo:contributor>
+    <bibo:position>19</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Marko Kazimirovic"/></bibo:contributor>
+    <bibo:position>20</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Srdjan Keren"/></bibo:contributor>
+    <bibo:position>21</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Juergen Kreyling"/></bibo:contributor>
+    <bibo:position>22</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Alexander Land"/></bibo:contributor>
+    <bibo:position>23</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Nicolas Latte"/></bibo:contributor>
+    <bibo:position>24</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tom Levani&#269;"/></bibo:contributor>
+    <bibo:position>25</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ernst van der Maaten"/></bibo:contributor>
+    <bibo:position>26</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Marieke van der Maaten&#45;Theunissen"/></bibo:contributor>
+    <bibo:position>27</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Elisabet Mart&#305;&#769;nez&#45;Sancho"/></bibo:contributor>
+    <bibo:position>28</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Annette Menzel"/></bibo:contributor>
+    <bibo:position>29</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Martin Mikol&#225;&#353;"/></bibo:contributor>
+    <bibo:position>30</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Renzo Motta"/></bibo:contributor>
+    <bibo:position>31</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Lena Muffler"/></bibo:contributor>
+    <bibo:position>32</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Paola Nola"/></bibo:contributor>
+    <bibo:position>33</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Momchil Panayotov"/></bibo:contributor>
+    <bibo:position>34</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Any Mary Petritan"/></bibo:contributor>
+    <bibo:position>35</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ion Catalin Petritan"/></bibo:contributor>
+    <bibo:position>36</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ionel Popa"/></bibo:contributor>
+    <bibo:position>37</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Peter Prislan"/></bibo:contributor>
+    <bibo:position>38</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Catalin&#45;Constantin Roibu"/></bibo:contributor>
+    <bibo:position>39</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Milo&#353; Rydval"/></bibo:contributor>
+    <bibo:position>40</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Raul S&#225;nchez&#45;Salguero"/></bibo:contributor>
+    <bibo:position>41</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tobias Scharnweber"/></bibo:contributor>
+    <bibo:position>42</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Branko Staji&#263;"/></bibo:contributor>
+    <bibo:position>43</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Miroslav Svoboda"/></bibo:contributor>
+    <bibo:position>44</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Willy Tegel"/></bibo:contributor>
+    <bibo:position>45</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Marius Teodosiu"/></bibo:contributor>
+    <bibo:position>46</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Elvin Toromani"/></bibo:contributor>
+    <bibo:position>47</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Volodymyr Trotsiuk"/></bibo:contributor>
+    <bibo:position>48</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Daniel&#45;Ond Turcu"/></bibo:contributor>
+    <bibo:position>49</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Robert Weigel"/></bibo:contributor>
+    <bibo:position>50</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Martin Wilmking"/></bibo:contributor>
+    <bibo:position>51</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Christian Zang"/></bibo:contributor>
+    <bibo:position>52</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tzvetan Zlatanov"/></bibo:contributor>
+    <bibo:position>53</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Valerie Trouet"/></bibo:contributor>
+    <bibo:position>54</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1038/sdata.2016.85">
+
+    <dc:title>Long&#45;term data set of small mammals from owl pellets in the Atlantic&#45;Mediterranean transition area</dc:title>
+    <dc:date>2016</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Scientific Data</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>3</bibo:volume>
+    <bibo:doi>10.1038/sdata.2016.85</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Nora Escribano"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="David Galicia"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Arturo H. Ari&#241;o"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Carmen Escala"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1016/j.agrformet.2022.108815">
+
+    <dc:title>Modeling weather&#45;driven long&#45;distance dispersal of spruce budworm moths (Choristoneura fumiferana). Part 1: Model description</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Agricultural and Forest Meteorology</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>315</bibo:volume>
+    <bibo:doi>10.1016/j.agrformet.2022.108815</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Matthew Garcia"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Brian R. Sturtevant"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="R&#233;mi Saint&#45;Amant"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Joseph J. Charney"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Johanne Delisle"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Yan Boulanger"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Philip A. Townsend"/></bibo:contributor>
+    <bibo:position>7</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Jacques R&#233;gni&#232;re"/></bibo:contributor>
+    <bibo:position>8</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1038/s41597&#45;020&#45;0544&#45;1">
+
+    <dc:title>Long&#45;term monitoring of the Iberian ibex population in the Sierra Nevada of the southeast Iberian Peninsula</dc:title>
+    <dc:date>2020</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Scientific Data</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>7</bibo:volume>
+    <bibo:doi>10.1038/s41597&#45;020&#45;0544&#45;1</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Jos&#233; Enrique Granados"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Andrea Ros&#45;Candeira"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Antonio Jes&#250;s P&#233;rez&#45;Luque"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ricardo Moreno&#45;Llorca"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Francisco Javier Cano&#45;Manuel"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Paulino Fandos"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ram&#243;n C. Soriguer"/></bibo:contributor>
+    <bibo:position>7</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Jos&#233; Espinosa Cerrato"/></bibo:contributor>
+    <bibo:position>8</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Jes&#250;s Mar&#305;&#769;a P&#233;rez Jim&#233;nez"/></bibo:contributor>
+    <bibo:position>9</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Blanca Ramos"/></bibo:contributor>
+    <bibo:position>10</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Regino Zamora"/></bibo:contributor>
+    <bibo:position>11</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1038/s41597&#45;020&#45;0453&#45;3">
+
+    <dc:title>Version 4 of the CRU TS monthly high&#45;resolution gridded multivariate climate dataset</dc:title>
+    <dc:date>2020</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Scientific Data</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>7</bibo:volume>
+    <bibo:doi>10.1038/s41597&#45;020&#45;0453&#45;3</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Ian Harris"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Timothy J. Osborn"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Phil Jones"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="David Lister"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1073/pnas.2102762118">
+
+    <dc:title>Environmental drivers of annual population fluctuations in a trans&#45;Saharan insect migrant</dc:title>
+    <dc:date>2021</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Proceedings of the National Academy of Sciences</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>118</bibo:volume>
+    <bibo:doi>10.1073/pnas.2102762118</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Gao Hu"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Constanti Stefanescu"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tom H. Oliver"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="David B. Roy"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tom Brereton"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Chris Van Swaay"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Don R. Reynolds"/></bibo:contributor>
+    <bibo:position>7</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Jason W. Chapman"/></bibo:contributor>
+    <bibo:position>8</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1371/journal.pmed.0020124">
+
+    <dc:title>Why Most Published Research Findings Are False</dc:title>
+    <dc:date>2005</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>PLoS Medicine</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>2</bibo:volume>
+    <bibo:doi>10.1371/journal.pmed.0020124</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="John P. A. Ioannidis"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1002/eap.1659">
+
+    <dc:title>Making do with less: must sparse data preclude informed harvest strategies for European waterbirds&#63;</dc:title>
+    <dc:date>2018</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Ecological Applications</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>28</bibo:volume>
+    <bibo:doi>10.1002/eap.1659</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Fred A. Johnson"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Mikko Alhainen"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Anthony D. Fox"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Jesper Madsen"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Matthieu Guillemain"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1016/j.anbehav.2021.04.003">
+
+    <dc:title>Autumn southward migration of dragonflies along the Baltic coast and the influence of weather on flight behaviour</dc:title>
+    <dc:date>2021</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Animal Behaviour</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>176</bibo:volume>
+    <bibo:doi>10.1016/j.anbehav.2021.04.003</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Aline Knoblauch"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Marco Thoma"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Myles H. M. Menz"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Document rdf:about=".org/10.1073/pnas.2121249119">
+
+    <dc:title>PNAS202121249&#95;proof.pdf</dc:title>
+    <dc:date>2019</dc:date>
+    <bibo:doi>.org/10.1073/pnas.2121249119</bibo:doi>
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="LETTER OPEN"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="ACCESS"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Document>
+<bibo:Document rdf:about="">
+
+    <dc:title>93&#37; of Paint Splatters are Valid Perl Programs</dc:title>
+    <dc:date>2019</dc:date>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Colin McMillen"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tim Toady"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Document>
+<bibo:Article rdf:about="https://doi.org/10.1038/s42003&#45;022&#45;03088&#45;3">
+
+    <dc:title>Local adaptation to climate anomalies relates to species phylogeny</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Communications Biology</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>5</bibo:volume>
+    <bibo:doi>10.1038/s42003&#45;022&#45;03088&#45;3</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Yolanda Melero"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Luke C. Evans"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Mikko Kuussaari"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Reto Schmucki"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Constant&#237; Stefanescu"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="David B. Roy"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Tom H. Oliver"/></bibo:contributor>
+    <bibo:position>7</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1111/1365&#45;2664.14127">
+
+    <dc:title>Predicting spatio&#45;temporal distributions of migratory populations using Gaussian process modelling</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Journal of Applied Ecology</dc:title></bibo:Journal></dcterms:isPartOf>
+
+    <bibo:doi>10.1111/1365&#45;2664.14127</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Antti Piironen"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Juho Piironen"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Toni Laaksonen"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1046/j.1365&#45;2486.2000.00322.x">
+
+    <dc:title>Phenology of British butterflies and climate change</dc:title>
+    <dc:date>2000</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Global Change Biology</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>6</bibo:volume>
+    <bibo:doi>10.1046/j.1365&#45;2486.2000.00322.x</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="D. B. Roy"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="T. H. Sparks"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.3934/environsci.2017.2.358">
+
+    <dc:title>Modeling the impacts of climate change on Species of Concern (birds) in South Central U.S. based on bioclimatic variables</dc:title>
+    <dc:date>2017</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Herpetological Conservation and Biology</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>4</bibo:volume>
+    <bibo:doi>10.3934/environsci.2017.2.358</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Eric Ariel L. Salas"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Virginia A. Seamster"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Kenneth G. Boykin"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Nicole M. Harings"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Keith W. Dixon"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="">
+
+    <dc:title>Remarkable Odonata caught in ornithological traps on the Courish Spit&#44; Kaliningrad Oblast&#44; Russia</dc:title>
+    <dc:date>2012</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Libellula</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>31</bibo:volume>
+
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Shapoval&#44; Anatoly"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Buczy&#324;ski&#44; Pawe&#322;"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.3897/bdj.10.e78784">
+
+    <dc:title>Database of butterfly and moth observations in the Netherlands: research from 1947&#45;2020</dc:title>
+    <dc:date>2022</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Biodiversity Data Journal</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>10</bibo:volume>
+    <bibo:doi>10.3897/bdj.10.e78784</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Fran&#231;ois Slieker"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Niels Raes"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1111/j.1365&#45;2486.2009.01986.x">
+
+    <dc:title>El Ni&#241;o and dry season rainfall influence hostplant phenology and an annual butterfly migration from Neotropical wet to dry forests</dc:title>
+    <dc:date>2010</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Global Change Biology</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>16</bibo:volume>
+    <bibo:doi>10.1111/j.1365&#45;2486.2009.01986.x</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Robert B. Srygley"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Robert Dudley"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Evandro G. Oliveira"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Rafael Aizpr&#250;a"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Nicole Z. Pelaez"/></bibo:contributor>
+    <bibo:position>5</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Andre J. Riveros"/></bibo:contributor>
+    <bibo:position>6</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.1111/btp.12081">
+
+    <dc:title>El Ni&#241;o&#44; Host Plant Growth&#44; and Migratory Butterfly Abundance in a Changing Climate</dc:title>
+    <dc:date>2013</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Biotropica</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>46</bibo:volume>
+    <bibo:doi>10.1111/btp.12081</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Robert B. Srygley"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Robert Dudley"/></bibo:contributor>
+    <bibo:position>2</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Evandro G. Oliveira"/></bibo:contributor>
+    <bibo:position>3</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+<bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Andre J. Riveros"/></bibo:contributor>
+    <bibo:position>4</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+<bibo:Article rdf:about="https://doi.org/10.18637/jss.v059.i10">
+
+    <dc:title>Tidy Data</dc:title>
+    <dc:date>2014</dc:date>
+    <dcterms:isPartOf><bibo:Journal><dc:title>Journal of Statistical Software</dc:title></bibo:Journal></dcterms:isPartOf>
+    <bibo:volume>59</bibo:volume>
+    <bibo:doi>10.18637/jss.v059.i10</bibo:doi>
+
+
+
+   <bibo:contribution>
+  <bibo:Contribution>
+    <bibo:role rdf:resource="http://purl.org/ontology/bibo/roles/author" />
+    <bibo:contributor><foaf:Person foaf:name="Hadley Wickham"/></bibo:contributor>
+    <bibo:position>1</bibo:position>
+  </bibo:Contribution>
+</bibo:contribution>
+
+
+
+</bibo:Article>
+</rdf:RDF>

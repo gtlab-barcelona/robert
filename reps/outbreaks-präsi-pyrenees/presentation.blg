@@ -1,0 +1,15 @@
+[1] Config.pm:311> INFO - This is Biber 2.16
+[1] Config.pm:314> INFO - Logfile is 'presentation.blg'
+[133] biber:340> INFO - === Sun May 22, 2022, 01:47:54
+[255] Biber.pm:415> INFO - Reading 'presentation.bcf'
+[370] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[384] Biber.pm:4340> INFO - Processing section 0
+[532] Biber.pm:4531> INFO - Looking for bibtex format file 'lit-butterflys.bib' for section 0
+[542] bibtex.pm:1689> INFO - LaTeX decoding ...
+[634] bibtex.pm:1494> INFO - Found BibTeX data source 'lit-butterflys.bib'
+[737] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[737] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[737] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-GB'
+[737] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-GB'
+[766] bbl.pm:654> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[767] bbl.pm:757> INFO - Output to presentation.bbl
