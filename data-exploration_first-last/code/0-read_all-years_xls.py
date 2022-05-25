@@ -50,7 +50,7 @@ df_upd['datetime'] = pd.to_datetime(
 df_upd = df_upd.set_index(keys='datetime').sort_index(axis=0)
 
 # save dataset
-df_upd.to_csv(r'../data/updated_butterfly_data.csv')
+#df_upd.to_csv(r'../data/updated_butterfly_data.csv')
 df_upd
 # %%
 # plotting
@@ -110,7 +110,7 @@ df_sns = df_upd.reset_index().melt(
     value_name='total',
 )
 df_sns_sorted = df_sns.sort_values(by='datetime', axis='index')
-df_sns_sorted.to_csv(r'../data/updated_butterfly_data_long-format.csv')
+#df_sns_sorted.to_csv(r'../data/updated_butterfly_data_long-format.csv')
 df_sns
 #%%
 g = sns.relplot(x='datetime', y='total', hue='trap', style='trap', kind='scatter', data=df_sns)

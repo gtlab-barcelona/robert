@@ -1,6 +1,9 @@
-name: /home/robi/research/conda_envs/data
+# https://stackoverflow.com/questions/71197980/conda-environment-and-channels
+
+name: data
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.9
   - matplotlib
@@ -10,6 +13,5 @@ dependencies:
   - scikit-learn
   - netcdf4
   - cartopy
-  - pycairo
   - nbconvert
-prefix: /home/robi/research/conda_envs/data
+  - cmasher
