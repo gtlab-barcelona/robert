@@ -1,0 +1,15 @@
+# https://stackoverflow.com/questions/71197980/conda-environment-and-channels
+
+name: gbif
+dependencies:
+  - python
+  - pip
+  - matplotlib
+  - seaborn
+  - pandas
+  - geopandas
+  - ipykernel
+  - pip:
+    - pygbif
+    - python-dwca-reader
+    - pycountry

@@ -2,10 +2,15 @@
 *.eps
 *.ods
 
-# exclude directories
+# exclude sensitive files
+.env
+
+# exclude directories & large files
 data/
 literature/
 conda_envs/data/
+conda_envs/gbif/
+anomalies/code/gbif/
 
 # ignore IDE specific files
 .idea/
