@@ -11,6 +11,7 @@ literature/
 conda_envs/data/
 conda_envs/gbif/
 anomalies/code/gbif/
+trajectories/
 
 # ignore IDE specific files
 .idea/
